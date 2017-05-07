@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>BootStrap学习</title>
+    <link href="./dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .row{
+            margin-bottom: 20px;
+        }
+        .row .row{
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        [class*="col-"]{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 1px solid #ddd;
+            background-color: rgba(86,61,124,.15);
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <!--<div class="col-md-1 col-md-offset-3">.col-lg-1</div>-->
+        <div class="col-md-9 col-md-push-3">.col-lg-1</div>
+        <div class="col-md-3 col-md-pull-9">.col-lg-1</div>
+    </div>
+    <hr/>
+    <h1>我是标题<small>我是副标题</small></h1>
+    <hr/>
+    <p>
+        <del>Nullam quis</del> risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+        <s>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper</s> nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+        <small>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit</small> non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+    </p>
+    <p class="lead text-uppercase">
+        Maecenas sed <mark><strong><em>diam eget</em></strong></mark> risus varius blandit sit amet non magna. Donec id elit non mi porta gravida
+    </p>
+    <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> is the best thing since sliced bread.</p>
+    <hr/>
+    <blockquote >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    </blockquote>
+    <hr/>
+    <dl>
+        <dt>Description lists</dt>
+        <dd>A description list is perfect for defining terms.</dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>Description lists</dt>
+        <dd>A description list is perfect for defining terms.</dd>
+    </dl>
+    <p>For example, <code>&lt;section&gt;</code> should be wrapped as inline.</p>
+    To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+    <pre class="pre-scrollable">&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+    <hr/>
+    <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+    <br/>
+    <samp>This text is meant to be treated as sample output from a computer program.</samp>
+
+    <hr/>
+
+    <table class="table  table-bordered table-hover table-condensed">
+        <thead>
+            <tr>
+                <td>FFFFF</td>
+                <td>JJJJJ</td>
+                <td>GGGGG</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr class="active">
+                <td>111111</td>
+                <td>22222</td>
+                <td>33333</td>
+            </tr>
+            <tr>
+                <td>444444</td>
+                <td class="danger">555555</td>
+                <td>666666</td>
+            </tr>
+            <tr class="info">
+                <td>777777</td>
+                <td>888888</td>
+                <td>999999</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr/>
+    <h1>表单<small>表单设置</small></h1>
+    <form>
+       <div class="form-group">
+           <label for="form">Email:</label>
+           <input type="email" class="form-control" id="form">
+       </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="exampleInputName2">Name</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail2">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+        <button type="submit" class="btn btn-info " disabled>Submit</button>
+    </form>
+
+    <hr/>
+    <form>
+        <div class="form-group has-success">
+            <label class="control-label" for="inputSuccess1">Input with success</label>
+            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+        </div>
+    </form>
+    <button type="button" class="btn btn-primary btn-lg btn-block">（块级元素）Block level button</button>
+    <hr/>
+
+    <p class="text-muted ">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+
+    <button type="button" class="close pull-left" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <hr/>
+    <span class="caret"></span>
+
+    <div class="center-block">
+        <!--<img src="background.jpg" class="img-responsive img-thumbnail" alt="Responsive image">-->
+    </div>
+
+    <p class="visible-md">有针对性的使用这类工具类，从而避免为同一个网站创建完全不同的版本。相反，通过使用这些工具类可以在不同设备上提供不同的展现形式。</p>
+
+
+</div>
+
+</body>
+</html>
