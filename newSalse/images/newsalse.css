@@ -70,7 +70,7 @@ body .message-info .ccic-ercode{
 body .message-info .ccic-ercode span{
     display: block;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: normal;
     color: #000000;
 }
@@ -82,14 +82,14 @@ body .message-info .ccic-ercode img{
 
 body .message-info h3{
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     font-weight: 400;
 }
 
 body .message-info p{
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     text-indent: 2em;
     line-height: 1.5em;
