@@ -10,20 +10,21 @@ body{
 body div{
     text-align: center;
 }
-
-body .container{
+body #container-android,
+body #container-ios,
+body #container{
     width: 100%;
     height: auto;
     /*margin-top: 60px;*/
 }
 
-body .container .logo{
+body .logo{
     margin-top: 60px;
     height: 80px;
     margin-bottom: 20px;
 }
 
-body .container .logo img{
+body .logo img{
     display: block;
     margin: 0 auto;
     width: 80px;
