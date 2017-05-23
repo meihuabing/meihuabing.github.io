@@ -7,16 +7,45 @@ body{
     background-color: #f1f1f1;
 }
 
+
+
+#c{
+    width: 100%;
+    height: auto;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.blur {
+    -webkit-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+
+#container-ios,
+#container-android,
+#container{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*color: cornflowerblue*/
+    /*background:;*/
+}
+
+
+
 body div{
     text-align: center;
 }
-body #container-android,
-body #container-ios,
-body #container{
-    width: 100%;
-    height: auto;
-    /*margin-top: 60px;*/
-}
+
 
 body .logo{
     margin-top: 60px;
