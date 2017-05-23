@@ -19,9 +19,9 @@ body{
 }
 
 .blur {
-    -webkit-filter: blur(8px);
-    -ms-filter: blur(8px);
-    filter: blur(8px);
+    -webkit-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 
