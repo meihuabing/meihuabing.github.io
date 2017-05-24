@@ -24,6 +24,67 @@ body{
     filter: blur(5px);
 }
 
+.animation{
+animation-name:tada;
+animation-duration:10s;
+animation-iteration-count:1000;
+}
+
+
+@keyframes tada{
+    0%{}
+    90%{-webkit-transform:scale(1)}
+    91%,92%{-webkit-transform:scale(0.9) rotate(-3deg)}
+    93%,95%,97%,99%{-webkit-transform:scale(1.1) rotate(3deg)}
+    94%,96%,98%{-webkit-transform:scale(1.1) rotate(-3deg)}
+    100%{-webkit-transform:scale(1) rotate(0)}
+}
+
+
+
+
+@-webkit-keyframes tada{
+    0%{}
+    90%{-webkit-transform:scale(1)}
+    91%,92%{-webkit-transform:scale(0.9) rotate(-3deg)}
+    93%,95%,97%,99%{-webkit-transform:scale(1.1) rotate(3deg)}
+    94%,96%,98%{-webkit-transform:scale(1.1) rotate(-3deg)}
+    100%{-webkit-transform:scale(1) rotate(0)}
+}
+@-moz-keyframes tada{
+    0%{}
+    90%{-webkit-transform:scale(1)}
+    91%,92%{-webkit-transform:scale(0.9) rotate(-3deg)}
+    93%,95%,97%,99%{-webkit-transform:scale(1.1) rotate(3deg)}
+    94%,96%,98%{-webkit-transform:scale(1.1) rotate(-3deg)}
+    100%{-webkit-transform:scale(1) rotate(0)}
+}
+
+
+.span-annat{
+    animation-name:flash;
+    animation-duration:10s;
+    animation-iteration-count:1000;
+}
+
+@keyframes flash{
+    0%{}
+    90%,95%,100%{opacity: 1;}
+    93%,98%{opacity: 0;}
+}
+
+@-webkit-keyframes flash{
+    0%{}
+    90%,95%,100%{opacity: 1;}
+    93%,98%{opacity: 0;}
+}
+@-moz-keyframes flash{
+    0%{}
+    90%,95%,100%{opacity: 1;}
+    93%,98%{opacity: 0;}
+}
+
+
 
 #container-ios,
 #container-android,
