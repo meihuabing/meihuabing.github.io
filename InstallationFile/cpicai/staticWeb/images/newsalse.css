@@ -189,7 +189,7 @@ body .companey{
     display: block;
     position: absolute;
     top: 2px;
-    left: : 5px;
+    right:5px;
     padding: 5px;
 
 }
@@ -198,5 +198,5 @@ body .companey span{
     text-align: center;
     font-size: 15px;
     font-weight: 100;
-    color: rgb(20,152,63);
+    color: rgb(90,99,93);
 }
